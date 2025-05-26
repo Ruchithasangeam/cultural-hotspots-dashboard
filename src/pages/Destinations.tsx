@@ -38,7 +38,7 @@ const destinations: Destination[] = [
     description: 'Known as the "Pink City", famous for its majestic palaces, colorful bazaars, and rich handicrafts.',
     rating: 4.7,
     tags: ['Heritage', 'Architecture', 'Handicrafts'],
-    image: 'https://images.unsplash.com/photo-1599661046289-e31897935fcf?w=600&auto=format&fit=crop'
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiRao-0n1PLNKOPj5_EGJQ-RTuSEuWDg81qQ&s'
   },
   {
     id: 'hampi',
@@ -48,8 +48,8 @@ const destinations: Destination[] = [
     description: 'UNESCO World Heritage Site with ruins of the Vijayanagara Empire, known for its temples and stone structures.',
     rating: 4.9,
     tags: ['UNESCO', 'Ruins', 'Ancient'],
-    image: 'https://images.unsplash.com/photo-1600100399893-2ac9a7b64b51?w=600&auto=format&fit=crop'
-  },
+   image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4V1hQ80lQimhF87joCc9VKEvdtEtK2imNuQ&s'
+   },
   {
     id: 'khajuraho',
     name: 'Khajuraho',
@@ -58,7 +58,7 @@ const destinations: Destination[] = [
     description: 'Famous for its medieval Hindu and Jain temples with intricate sculptures and carvings.',
     rating: 4.6,
     tags: ['Temples', 'UNESCO', 'Sculptures'],
-    image: 'https://images.unsplash.com/photo-1605773960441-958a76d74fad?w=600&auto=format&fit=crop'
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSZUFujzsUqrirIi6fDJblyYs7xpz9cofrlg&s'
   },
   {
     id: 'mysore',
@@ -68,7 +68,7 @@ const destinations: Destination[] = [
     description: 'Cultural capital of Karnataka known for its palaces, silk sarees, and Mysore Pak sweet.',
     rating: 4.5,
     tags: ['Palace', 'Art', 'Silk'],
-    image: 'https://images.unsplash.com/photo-1588416499018-b9136045e99c?w=600&auto=format&fit=crop'
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzHALe1Fe1foOTGwGINzOCylc2a-hgg_CuvA&s'
   },
   {
     id: 'kolkata',
@@ -78,7 +78,7 @@ const destinations: Destination[] = [
     description: "India's cultural capital with rich literary, artistic, and cultural heritage.",
     rating: 4.6,
     tags: ['Literature', 'Art', 'Colonial'],
-    image: 'https://images.unsplash.com/photo-1588497512730-5b8341bb36d8?w=600&auto=format&fit=crop'
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYCf8uTcbqmVo0UyBel5uPIYSiKy5w64SYaw&s'
   },
   {
     id: 'madurai',
@@ -88,7 +88,7 @@ const destinations: Destination[] = [
     description: 'Ancient city known for Meenakshi Amman Temple and its rich cultural heritage.',
     rating: 4.4,
     tags: ['Temples', 'Ancient', 'Religious'],
-    image: 'https://images.unsplash.com/photo-1590766116787-0d4e0f1836c9?w=600&auto=format&fit=crop'
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7dNsBdJLn7Kl34CS2Snwoul5KOB6hlxhZGA&s'
   },
   {
     id: 'guwahati',
@@ -98,7 +98,7 @@ const destinations: Destination[] = [
     description: 'Gateway to Northeast India, known for Kamakhya Temple and Assamese culture.',
     rating: 4.3,
     tags: ['Northeast', 'Temple', 'Cultural'],
-    image: 'https://images.unsplash.com/photo-1591017771977-b7fe3d2cf236?w=600&auto=format&fit=crop'
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVjXk2YGTAVkxa8ceG7YGC_VAgO-VPc7Fqrw&s'
   },
 ];
 

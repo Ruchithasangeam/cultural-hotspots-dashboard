@@ -35,7 +35,8 @@ const About = () => {
               </div>
               <div className="bg-muted rounded-lg overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1587925358603-c2eea5305bbc?w=800&auto=format&fit=crop" 
+                 // src="https://images.unsplash.com/photo-1587925358603-c2eea5305bbc?w=800&auto=format&fit=crop" 
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTetYZHrqwTqCIwolMCqik-TphsmHLN20f32g&s"
                   alt="Traditional Indian dancers performing" 
                   className="w-full h-full object-cover"
                 />
@@ -46,7 +47,7 @@ const About = () => {
 
         <section className="py-16 bg-muted/30">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold mb-12 text-center">Our Approach</h2>
+            <h2 className="text-3xl font-bold mb-12 text-center"> Approach</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <Card className="border-t-4 border-t-primary">
                 <CardContent className="pt-6">
@@ -76,57 +77,6 @@ const About = () => {
           </div>
         </section>
 
-        <section className="py-16">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold mb-12 text-center">Our Team</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="w-40 h-40 mx-auto rounded-full overflow-hidden mb-4">
-                  <img 
-                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&auto=format&fit=crop" 
-                    alt="Aarti Sharma" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h3 className="text-lg font-bold">Aarti Sharma</h3>
-                <p className="text-muted-foreground">Cultural Research Lead</p>
-              </div>
-              <div className="text-center">
-                <div className="w-40 h-40 mx-auto rounded-full overflow-hidden mb-4">
-                  <img 
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop" 
-                    alt="Rajiv Mehta" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h3 className="text-lg font-bold">Rajiv Mehta</h3>
-                <p className="text-muted-foreground">Data Analytics Director</p>
-              </div>
-              <div className="text-center">
-                <div className="w-40 h-40 mx-auto rounded-full overflow-hidden mb-4">
-                  <img 
-                    src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&auto=format&fit=crop" 
-                    alt="Meena Iyer" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h3 className="text-lg font-bold">Meena Iyer</h3>
-                <p className="text-muted-foreground">Community Partnerships</p>
-              </div>
-              <div className="text-center">
-                <div className="w-40 h-40 mx-auto rounded-full overflow-hidden mb-4">
-                  <img 
-                    src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=300&auto=format&fit=crop" 
-                    alt="Arjun Kapoor" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h3 className="text-lg font-bold">Arjun Kapoor</h3>
-                <p className="text-muted-foreground">Sustainable Tourism Expert</p>
-              </div>
-            </div>
-          </div>
-        </section>
 
         <section className="py-16 bg-primary text-white">
           <div className="container mx-auto px-4 text-center">

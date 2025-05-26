@@ -20,22 +20,21 @@ const experiences: Experience[] = [
     title: 'Traditional Pottery Workshop',
     location: 'Jaipur, Rajasthan',
     description: 'Learn the ancient craft of Blue Pottery from master artisans in the Pink City.',
-    image: 'https://images.unsplash.com/photo-1513096010732-8d9f06e57c47?w=600&auto=format&fit=crop',
-    featured: true
+   image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt4slhPJ9G-HiitnHgESFN-pPNQsKsQdNl9w&s'
   },
   {
-    id: 'folk-dance',
+    id: 'folk-dance',                 
     title: 'Folk Dance Performance',
     location: 'Jodhpur, Rajasthan',
     description: 'Experience vibrant Kalbelia dance performances with traditional music.',
-    image: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=600&auto=format&fit=crop',
+    image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9taAGO8EDHs3WGiCfHBFgxtI1lWnFu_oXLA&s'
   },
   {
     id: 'weaving',
     title: 'Traditional Silk Weaving',
     location: 'Varanasi, Uttar Pradesh',
     description: 'Learn about the intricate art of Banarasi silk weaving from local artisans.',
-    image: 'https://images.unsplash.com/photo-1602069469932-486c6a9ffdfe?w=600&auto=format&fit=crop',
+    image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFN3M8SHdS3arCuYHEdp7a6qObo-7_F5am8g&s'
   }
 ];
 

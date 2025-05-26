@@ -103,10 +103,123 @@ const TourismTrendsSection: React.FC = () => {
               </ResponsiveContainer>
             </CardContent>
           </Card>
+          </div>
+          <div className='pt-10'>
+          <Card >
+            <CardHeader>
+              <CardTitle>Seasonality & Tourism Trends in Cultural Hotspots</CardTitle>
+            </CardHeader>
+            <CardContent>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ">
+                      <div className="bg-muted p-6 rounded-lg">
+                        <h3 className="text-lg font-bold mb-2">Peak Season (Oct-Mar)</h3>
+                        <p className="text-muted-foreground">
+                        Pleasant weather drives 70% of annual cultural tourism. Heritage sites like Taj Mahal, Rajasthan's forts experience maximum footfall.</p>
+                        
+                        <li className='pt-2'>Festival season with Diwali, Dussehra </li>
+                        <li>Wedding tourism peaks</li>
+                        <li>International visitor influx</li>
+                        
+                      </div>
+                      <div className="bg-muted p-6 rounded-lg">
+                        <h3 className="text-lg font-bold mb-2">Monsoon Impact (Jun-Sep)</h3>
+                        <p className="text-muted-foreground">
+                        Coastal and hill station cultural sites see increased domestic tourism, while desert regions experience 60% decline. </p>
+                        <li className='pt-2'>Kerala backwaters gain popularity</li>
+                        <li>Himalayan monasteries peak season</li>
+                        <li>Reduced desert fort visits</li>
+                      </div>
+                      <div className="bg-muted p-6 rounded-lg">
+                        <h3 className="text-lg font-bold mb-2">Summer Trends (Apr-May)</h3>
+                        <p className="text-muted-foreground">
+                        Hill stations and cooler regions see surge in cultural tourism. Plains experience 40% reduction in visits.
+                        </p>
+                        <li className='pt-2'>Shimla, Darjeeling cultural sites busy</li>
+                        <li>School vacation tourism</li>
+                        <li>Early morning heritage walks popular</li>
+                      </div>
+                    </div>
+                  </CardContent>           
+          </Card>
+          </div>
+
+          <div className='pt-10'>
+          <div className="grid grid-cols-1 lg:grid-cols gap-8">
+          
+<Card className="mb-8">
+  <CardHeader>
+    <CardTitle>Relatively Untouched Cultural Areas & Reasons</CardTitle>
+  </CardHeader>
+  <CardContent>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div>
+        <h3 className="text-xl font-bold mb-4">Hidden Cultural Gems</h3>
+        <div className="space-y-4">
+          <div className="border-l-4 border-primary pl-4">
+            <h4 className="font-semibold mb-2">Arunachal Pradesh Monasteries</h4>
+            <p className="text-sm text-muted-foreground">
+              Ancient Buddhist monasteries with unique Monpa culture remain largely unexplored due to permit requirements and remote locations.
+            </p>
+          </div>
+          
+          <div className="border-l-4 border-accent pl-4">
+            <h4 className="font-semibold mb-2">Chhattisgarh Tribal Art Villages</h4>
+            <p className="text-sm text-muted-foreground">
+              Traditional Gond and Baiga art forms in remote villages lack tourism infrastructure and accessibility.
+            </p>
+          </div>
+          
+          <div className="border-l-4 border-secondary pl-4">
+            <h4 className="font-semibold mb-2">Andaman Indigenous Culture</h4>
+            <p className="text-sm text-muted-foreground">
+              Protected tribal areas with strict access controls preserve authentic cultures but limit cultural tourism.
+            </p>
+          </div>
         </div>
       </div>
-    </section>
+      
+      <div>
+        <h3 className="text-xl font-bold mb-4">Barriers to Cultural Tourism</h3>
+        <div className="space-y-4">
+          <div className="bg-red-50 p-4 rounded-lg">
+            <h4 className="font-semibold mb-2 text-red-800">Infrastructure Challenges</h4>
+            <ul className="text-sm text-red-700 space-y-1">
+              <li>• Poor road connectivity to remote cultural sites</li>
+              <li>• Limited accommodation options</li>
+              <li>• Lack of tourist facilities and guides</li>
+            </ul>
+          </div>
+          
+          <div className="bg-blue-50 p-4 rounded-lg">
+            <h4 className="font-semibold mb-2 text-blue-800">Regulatory Factors</h4>
+            <ul className="text-sm text-blue-700 space-y-1">
+              <li>• Protected area restrictions (Inner Line Permits)</li>
+              <li>• Environmental conservation policies</li>
+              <li>• Limited tourist quotas for sensitive areas</li>
+            </ul>
+          </div>
+          
+          <div className="bg-green-50 p-4 rounded-lg">
+            <h4 className="font-semibold mb-2 text-green-800">Cultural Preservation</h4>
+            <ul className="text-sm text-green-700 space-y-1">
+              <li>• Community preference for cultural privacy</li>
+              <li>• Fear of commercialization of traditions</li>
+              <li>• Language barriers with local communities</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </CardContent>
+</Card>
+          </div>
+ </div>
+ </div>
+</section>
+    
   );
+
+
 };
 
 export default TourismTrendsSection;

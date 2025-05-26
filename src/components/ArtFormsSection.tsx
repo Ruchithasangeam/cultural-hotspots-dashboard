@@ -18,28 +18,28 @@ const artForms: ArtForm[] = [
     name: 'Kathakali',
     region: 'Kerala',
     description: 'Classical Indian dance-drama known for its elaborately colorful make-up, costumes and face masks.',
-    image: 'https://images.unsplash.com/photo-1583265627959-fb7042f5133b?w=600&auto=format&fit=crop',
+    image:'https://media.istockphoto.com/id/1221935714/photo/kathakali-kerala-classical-dance-men-unique-body-expression.jpg?s=612x612&w=0&k=20&c=l5jkczq7yyJocnBqNcntTEx-OoZevZNcXePnp05i_hc='
   },
   {
     id: 'madhubani',
     name: 'Madhubani',
     region: 'Bihar',
     description: 'Folk painting practiced in the Mithila region characterized by geometric patterns.',
-    image: 'https://images.unsplash.com/photo-1582557292087-aa2e8eb78248?w=600&auto=format&fit=crop',
+    image:'https://kala-sanskruti.com/wp-content/uploads/2023/03/Madhubani_AG001.jpg'
   },
   {
     id: 'bharatanatyam',
     name: 'Bharatanatyam',
     region: 'Tamil Nadu',
     description: 'One of the oldest classical dance traditions in India with divine connotations.',
-    image: 'https://images.unsplash.com/photo-1503516459261-40c66117780a?w=600&auto=format&fit=crop',
+   image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZpsTR7igDJnTkxgRi7FxsiOWW3WrAUL8Sjw&s'
   },
   {
     id: 'warli',
     name: 'Warli Art',
     region: 'Maharashtra',
     description: 'Tribal art form known for its simple stick figures and use of earth colors.',
-    image: 'https://images.unsplash.com/photo-1586791969105-35e8010c3880?w=600&auto=format&fit=crop',
+    image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2uXsZWonPt8tDjt3np_WyKBhUOnNR3RLHIA&s'
   }
 ];
 

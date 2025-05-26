@@ -25,9 +25,9 @@ const MapSection: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
-          <div className="col-span-1">
-            <h3 className="text-xl font-bold mb-4">Regions</h3>
+        <div className=" items-center">
+          <div className="flex-auto flex-col  items-center">
+            <h3 className="text-xl font-bold mb-4 ">Regions</h3>
             <div className="space-y-2">
               {regions.map((region) => (
                 <div 
@@ -48,18 +48,7 @@ const MapSection: React.FC = () => {
             </div>
           </div>
 
-          <div className="col-span-2 bg-muted rounded-lg p-4 h-[500px] flex items-center justify-center">
-            <div className="text-center">
-              <p className="text-muted-foreground mb-2">Interactive Map</p>
-              <h3 className="text-xl font-bold mb-4">Cultural Hotspots in {activeRegion.name}</h3>
-              <div className="bg-secondary/50 p-8 rounded-md">
-                <p>Map visualization would be displayed here</p>
-                <p className="text-sm text-muted-foreground mt-2">
-                  Displaying {activeRegion.hotspots} cultural hotspots
-                </p>
-              </div>
-            </div>
-          </div>
+      
         </div>
       </div>
     </section>
